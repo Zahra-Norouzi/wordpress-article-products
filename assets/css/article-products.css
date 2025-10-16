@@ -1,0 +1,12 @@
+/* استایل محصولات پلاگین Article Products */
+.ap-products-wrapper {display:flex;gap:20px;align-items:stretch;flex-wrap:wrap;}
+.ap-product-box {border:1px solid #e5e5e5;padding:15px;background:#fff;flex:1 1 200px;min-width:200px;max-width:300px;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:space-between;}
+.ap-product-img img {max-width:100%;height:auto;display:block;margin-bottom:10px;}
+.ap-product-title {font-size:18px; margin:10px 0 5px 0; border-bottom:none; text-align:right; direction:rtl; align-self:flex-start;}
+.ap-product-link {text-decoration:none !important;}
+.ap-product-price {color:#333;font-weight:bold;margin-bottom:10px;}
+.ap-product-all-btn {display:flex;align-items:center;justify-content:center;margin-top:10px;width:100%;}
+.ap-btn {background:#0073aa;color:#fff;padding:10px 20px;border-radius:5px;text-decoration:none;transition:background 0.2s;}
+.ap-btn:hover {background:#005177;}
+.ap-product-box {border-radius: 16px;}
+.ap-product-img >img {border-radius: 16px;}
